@@ -40,7 +40,7 @@ public class StudentController {
 	public void deleteStudent(@PathVariable("sId") Integer sId) {
 		service.deleteStudent(sId);
 	}
-	
+	////Pavithra project
 	// update a student
 	@PutMapping("/student/{sId}/{newEmail}")
 	public Student updateStudent(@PathVariable("sId") Integer sId, @PathVariable("newEmail") String newEmail) {
